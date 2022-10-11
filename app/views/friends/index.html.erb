@@ -1,0 +1,9 @@
+
+
+
+<div id="friends">
+  <% @friends.each do |friend| %>
+    <%= render friend %>
+      <%= link_to "Show this friend", friend   %>
+  <% end %>
+</div>
